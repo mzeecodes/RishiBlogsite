@@ -1,0 +1,49 @@
+.home {
+  padding: 2rem 0;
+}
+
+.home-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.home-subtext {
+  font-family: "Karla", sans-serif;
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 2rem;
+}
+
+.research-section {
+  margin-bottom: 3rem;
+}
+
+.research-section h2 {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.research-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.research-section li {
+  margin-bottom: 0.7rem;
+}
+
+.research-section a {
+  text-decoration: none;
+  color: black;
+  font-family: "Karla", sans-serif;
+}
+
+.research-section a:hover {
+  text-decoration: underline;
+}
+
+.blog-section h2 {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1rem;
+}

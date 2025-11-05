@@ -1,30 +1,22 @@
-.app {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.main-content {
-  flex: 1;
-  padding: 2rem 3rem;
-  max-width: 760px;
+.blog-page {
+  max-width: 800px;
   margin: 0 auto;
+  padding: 2rem 0;
 }
 
-.page-title {
+.blog-page-title {
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
   margin-bottom: 0.5rem;
 }
 
-.page-subtext {
+.blog-page-subtext {
   font-family: "Karla", sans-serif;
-  font-size: 1rem;
+  color: #444;
   margin-bottom: 2rem;
-  color: #555;
 }
 
-.blog-preview {
+.blog-list {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
