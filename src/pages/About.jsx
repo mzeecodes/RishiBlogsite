@@ -1,6 +1,5 @@
 import React from "react";
 import "./About.css";
- 
 
 const About = () => {
   return (
@@ -10,8 +9,7 @@ const About = () => {
           <h1>About Rishi Shah</h1>
           <p>
             I’m <strong>Rishi Shah</strong>, a 21-year-old finance enthusiast currently pursuing <strong>CFA Level II</strong>.
-            I’m deeply passionate about understanding global markets, portfolio management, and
-            behavioral finance.
+            I’m deeply passionate about understanding global markets, portfolio management, and behavioral finance.
           </p>
           <p>
             I’m a <strong>partner in my own mutual funds capital management firm</strong> and currently
@@ -22,8 +20,9 @@ const About = () => {
             and real-world investment strategy. I also love writing <strong>reports, articles, and research papers</strong> focused on the ever-evolving world of finance.
           </p>
         </div>
+
         <div className="about-image">
-          <img src="/RISHI.png" alt="Rishi Shah Portrait" />
+          <img src="/RishiPortrait.jpg" alt="Rishi Shah Portrait" />
         </div>
       </div>
     </div>

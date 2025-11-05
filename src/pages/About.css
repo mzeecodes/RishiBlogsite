@@ -35,8 +35,8 @@
 
 .about-image img {
   width: 100%;
-  max-width: 260px;
-  aspect-ratio: 1 / 1;
+  max-width: 300px;
+  aspect-ratio: 9 / 16;
   object-fit: cover;
   border-radius: 10px;
 }
