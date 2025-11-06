@@ -5,12 +5,14 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      {/* Left side: Logo Text (acts as Home link) */}
-      <div className="navbar-logo">
-        <Link to="/" className="logo-text">
-          RISHI SHAH
-        </Link>
-      </div>
+      {/* Left side: Only main logo acts as Home button */}
+      <Link to="/" className="navbar-logo">
+        <img
+          src="/Rishi Cropped.png"
+          alt="Rishi Shah Logo"
+          className="logo-img"
+        />
+      </Link>
 
       {/* Right side: Navigation links */}
       <div className="navbar-links">

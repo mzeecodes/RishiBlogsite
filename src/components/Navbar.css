@@ -1,6 +1,4 @@
-/* FONT IMPORTS ARE ALREADY IN INDEX.HTML */
 
-/* Navbar container */
 .navbar {
   width: 100%;
   background-color: #ffffff;
@@ -14,31 +12,33 @@
   z-index: 100;
 }
 
-.logo-text {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 2rem; 
-  color: black;      
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
   text-decoration: none;
-  letter-spacing: 1px;
-  transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 
-.logo-text:hover {
-  color: #555;
-  transform: scale(1.03);
+
+.logo-img {
+  height: 80px; 
+  width: auto;
+  transition: transform 0.3s ease-in-out;
 }
 
-/* Navbar links (Blog, Socials, About) */
+.logo-img:hover {
+  transform: scale(1.05);
+}
+
+
 .navbar-links {
   display: flex;
   gap: 2rem;
 }
 
-/* Increased size by ~5% (from 1rem → 1.05rem) */
 .nav-link {
   font-family: "Poppins", sans-serif;
-  font-size: 1.25rem; /* Increased by 5% */
+  font-size: 1.25rem;
   text-decoration: none;
   color: black;
   transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
